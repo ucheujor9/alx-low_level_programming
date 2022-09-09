@@ -2,7 +2,6 @@
 
 /**
  *  main - prints possible combinations of single digit
- *  
  *  Return: 0 (success)
  */
 
@@ -10,10 +9,10 @@ int main(void)
 {
 	int n;
 
-	for (n = 40; n < 50; n++)
+	for (n = 48; n < 58; n++)
 	{
 		putchar(n);
-		if (n != 49)
+		if (n != 57)
 		{
 			putchar(',');
 			putchar(' ');
