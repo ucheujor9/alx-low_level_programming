@@ -5,7 +5,7 @@
 /**
  *  main - assigns a random number to int
  *  when it runs, it prints it
- *  return value of main is negative random number
+ *  Return: always 0 (success)
  */
 
 int main(void)
