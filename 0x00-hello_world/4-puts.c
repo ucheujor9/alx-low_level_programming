@@ -2,7 +2,8 @@
 
 /**
  *  main - prints a line of strings followed by a new line
- *  return: 0 (success)
+ *
+ *  Return: 0 (success)
  */
 
 int main(void)
