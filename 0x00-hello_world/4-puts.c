@@ -1,12 +1,13 @@
 #include <stdio.h>
 
 /**
- * Main function is entry point, without it, error occurs
- * Return to main function prints what is fed into it, at the end of the code.
+ *  main - prints a line of strings followed by a new line
+ *  return: 0 (success)
  */
 
 int main(void)
 {
-	puts("Programming is like building a multilingual puzzle\n");
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
+
 }
