@@ -1,9 +1,8 @@
 #include <stdio.h>
 
 /**
- * int tells us the data type of the return function; main
- * main is the entry point
- * return is the end of execution of code
+ * main - prints a line of strings
+ * Return: 0 success
  */
 
 int main(void)
