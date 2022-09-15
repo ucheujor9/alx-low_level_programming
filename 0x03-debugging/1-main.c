@@ -1,4 +1,4 @@
-i#include <stdio.h>
+#include <stdio.h>
 
 /**
  * main - causes an infinite loop
@@ -8,7 +8,7 @@ i#include <stdio.h>
 int main(void)
 {
 	int i;
-
+	
 	printf("Infinite loop incoming :(\n");
 	i = 0;
 
