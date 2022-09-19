@@ -4,19 +4,15 @@
 /**
  * _puts - prints a string
  * @str: string argument
- *
- * Desciption: prints a string
- * On success: returns no error
  */
 
 void _puts(char *str)
 {
-	int i = 0;
+	int i;
 
-	while (*(str + i) != '\0')
+	for (i = 0; str[i] != '\0'; i++)
 	{
-		putchar(*(str + 1));
-		i++;
+		_putchar(str[i]);
 	}
-	putchar(10);
+	_putchar('\n');
 }
